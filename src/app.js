@@ -7,8 +7,9 @@ import "./styles/output.css";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[url('./LavenderFlowers.jpg')] pt-28">
       <Navbar />
+      <About />
     </div>
   );
 }
